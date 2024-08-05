@@ -1,0 +1,19 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - path/nginx.conf
+    networks:
+      - app-network
+
+  reverse-proxy:
+    image: reverse-proxy
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
