@@ -1,7 +1,7 @@
 # REVERSE PROXY
 
 
-I created this repository to get information abour Reverse Proxy.
+I created this repository to get information abour Reverse Proxy. I aim to learn how reverse proxy works and in real time apps(such as Microservice), how they redirect the request to correct endpoints<br><br>
 A reverse proxy is a server that sits between client devices and a backend server, acting as an intermediary to manage and direct requests.
 It forwards client requests to the appropriate backend server and then returns the server's response to the client. 
 This setup helps in load balancing, security, and caching, improving overall performance and reliability.
